@@ -1,4 +1,3 @@
-# Periodontal-Disease-Prediction
 Periodontal Disease Prediction
 This project uses a Convolutional Neural Network (CNN) to predict periodontal (gum) disease from panoramic dental images. It applies K-Fold Cross-Validation to test model performance properly and performs binary classification (disease or no disease).
 
