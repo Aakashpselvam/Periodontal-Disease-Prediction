@@ -4,8 +4,8 @@ from tensorflow.keras.preprocessing import image
 import cv2
 
 
-model_path = r'C:\Users\Rambabu\OneDrive\Desktop\periodontal\periodontal_model.h5'
-img_path = r'C:\Users\Rambabu\OneDrive\Desktop\periodontal\xrayperi.png'
+model_path = r'C:\Users\aakas\OneDrive\Documents\periodontal\periodontal_model.h5'
+img_path = r'C:\Users\aakas\OneDrive\Documents\periodontal\xrayperi.png'
 img_height, img_width = 128, 128
 
 def is_valid_xray(img_path):
