@@ -13,7 +13,7 @@ batch_size = 10
 epochs = 10
 k_folds = 5
 
-aug_output_dir = r'C:\Users\Rambabu\OneDrive\Desktop\periodontal\augmented_output'
+aug_output_dir = r'C:\Users\aakas\OneDrive\Documnents\periodontal\augmented_output'
 categories = ['penyakit-periodontal', 'penyakit-non-periodontal']
 def load_and_preprocess_image(image_path):
     img = image.load_img(image_path, target_size=(img_height, img_width))
@@ -67,6 +67,6 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(images)):
         best_model = model
         best_accuracy = val_acc
 
-model_save_path = r'C:\Users\Rambabu\OneDrive\Desktop\periodontal\periodontal_model.h5'
+model_save_path = r'C:\Users\aakas\OneDrive\Documents\periodontal\periodontal_model.h5'
 best_model.save(model_save_path)
 print(f"\n Best model saved to: {model_save_path}")
