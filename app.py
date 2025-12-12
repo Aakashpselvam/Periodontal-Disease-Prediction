@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image as PILImage
 
 # === Configuration ===
-model_path = r'C:\Users\Rambabu\OneDrive\Desktop\periodontal\periodontal_model.h5'
+model_path = r'C:\Users\aakas\OneDrive\Documents\periodontal\periodontal_model.h5'
 img_height, img_width = 128, 128
 
 # === Load the trained model
